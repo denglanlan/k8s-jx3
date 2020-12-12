@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         denglanlan/deng-test-three: true
+        denglanlan/jx-quick: true
         denglanlan/k8s-jx3: true
         denglanlan/php-helloworld: true
         denglanlan/test-jx3: true
@@ -24,6 +25,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         denglanlan/deng-test-three: merge
+        denglanlan/jx-quick: merge
         denglanlan/k8s-jx3: merge
         denglanlan/php-helloworld: merge
         denglanlan/test-jx3: merge
@@ -40,6 +42,7 @@ data:
         repos:
         - denglanlan/k8s-jx3
         - denglanlan/deng-test-three
+        - denglanlan/jx-quick
         - denglanlan/php-helloworld
         - denglanlan/test-jx3
         - denglanlan/test-two
@@ -54,6 +57,7 @@ data:
         repos:
         - denglanlan/k8s-jx3
         - denglanlan/deng-test-three
+        - denglanlan/jx-quick
         - denglanlan/php-helloworld
         - denglanlan/test-jx3
         - denglanlan/test-two

@@ -12,6 +12,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - denglanlan/jx-quick
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - denglanlan/php-helloworld
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -37,6 +41,22 @@ data:
     owners: {}
     plugins:
       denglanlan/deng-test-three:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
+      denglanlan/jx-quick:
       - approve
       - assign
       - blunderbuss
@@ -131,6 +151,9 @@ data:
       trusted_org: todo
     - repos:
       - denglanlan/deng-test-three
+      trusted_org: todo
+    - repos:
+      - denglanlan/jx-quick
       trusted_org: todo
     - repos:
       - denglanlan/php-helloworld
