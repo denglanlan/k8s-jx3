@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: denglanlan
+    provider: github
+    repository: jx-quick
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: denglanlan-jx-quick
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/denglanlan/jx-quick.git
+  org: denglanlan
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jx-quick
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/denglanlan/jx-quick
