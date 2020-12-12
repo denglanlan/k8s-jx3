@@ -41,7 +41,7 @@ data:
         - needs-rebase
         repos:
         - denglanlan/k8s-jx3
-      target_url: http://dashboard-jx.
+      target_url: http://dashboard-jx.jx3.sky-cloud.net.com
 kind: ConfigMap
 metadata:
   creationTimestamp: null
