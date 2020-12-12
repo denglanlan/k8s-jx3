@@ -9,4 +9,5 @@ spec:
     providerKind: github
     repositories:
     - name: test-jx3
+    - name: test-two
     scheduler: in-repo

@@ -9,6 +9,7 @@ data:
       enabled:
         denglanlan/k8s-jx3: true
         denglanlan/test-jx3: true
+        denglanlan/test-two: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         denglanlan/k8s-jx3: merge
         denglanlan/test-jx3: merge
+        denglanlan/test-two: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - denglanlan/k8s-jx3
         - denglanlan/test-jx3
+        - denglanlan/test-two
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - denglanlan/k8s-jx3
         - denglanlan/test-jx3
+        - denglanlan/test-two
       target_url: http://dashboard-jx.jx3.sky-cloud.net
 kind: ConfigMap
 metadata:

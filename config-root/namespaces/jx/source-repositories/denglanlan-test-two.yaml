@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: denglanlan
+    provider: github
+    repository: test-two
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: denglanlan-test-two
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/denglanlan/test-two.git
+  org: denglanlan
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test-two
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/denglanlan/test-two
