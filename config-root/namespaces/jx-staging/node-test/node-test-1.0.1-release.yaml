@@ -1,0 +1,49 @@
+# Source: node-test/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-12-12T09:02:58Z"
+  deletionTimestamp: null
+  name: 'node-test-1.0.1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 1.0.1
+      sha: 948dc0074a3bb5027cd409d9c9bb9f0cfb9b2ec7
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 9757f9991cc911e9d1cdb95a9435ffcea8b3eea4
+    - author:
+        email: 1271580969@qq.com
+        name: denglanlan
+      branch: master
+      committer:
+        email: 1271580969@qq.com
+        name: denglanlan
+      message: |
+        chore: Jenkins X build pack
+      sha: 0f48ad935dd8f8bd534823562758d2102a652abb
+  gitHttpUrl: https://github.com/denglanlan/node-test
+  gitOwner: denglanlan
+  gitRepository: node-test
+  name: 'node-test'
+  releaseNotesURL: https://github.com/denglanlan/node-test/releases/tag/v1.0.1
+  version: v1.0.1
+status: {}
