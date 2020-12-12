@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: deng-test-three
+    - name: jx-quick
     - name: php-helloworld
     - name: test-jx3
     - name: test-two
