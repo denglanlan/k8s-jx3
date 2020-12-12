@@ -1,7 +1,7 @@
 # Source: jxboot-helmfile-resources/templates/ingress-config-configmap.yaml
 apiVersion: v1
 data:
-  domain: "jx3.sky-cloud.net.com"
+  domain: "jx3.sky-cloud.net"
   email: ""
   exposer: "Ingress"
   issuer: ""

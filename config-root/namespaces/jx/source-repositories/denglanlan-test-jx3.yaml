@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: denglanlan
+    provider: github
+    repository: test-jx3
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: denglanlan-test-jx3
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/denglanlan/test-jx3.git
+  org: denglanlan
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: test-jx3
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/denglanlan/test-jx3

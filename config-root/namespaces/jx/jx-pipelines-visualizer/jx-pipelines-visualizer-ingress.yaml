@@ -17,7 +17,7 @@ metadata:
   namespace: jx
 spec:
   rules:
-    - host: dashboard-jx.jx3.sky-cloud.net.com
+    - host: dashboard-jx.jx3.sky-cloud.net
       http:
         paths:
           - backend:

@@ -16,4 +16,4 @@ spec:
               serviceName: bucketrepo
               servicePort: 80
             path: "/"
-      host: bucketrepo-jx.jx3.sky-cloud.net.com
+      host: bucketrepo-jx.jx3.sky-cloud.net
