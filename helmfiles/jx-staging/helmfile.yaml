@@ -13,13 +13,10 @@ releases:
   name: deng-test-three
   values:
   - jx-values.yaml
-  forceNamespace: ""
-  skipDeps: null
 - chart: dev/php-helloworld
   version: 0.0.1
   name: php-helloworld
-  forceNamespace: ""
-  skipDeps: null
+  values:
+  - jx-values.yaml
 templates: {}
-missingFileHandler: ""
 renderedvalues: {}
