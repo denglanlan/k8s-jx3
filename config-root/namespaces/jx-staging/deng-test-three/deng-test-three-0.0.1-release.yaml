@@ -1,0 +1,49 @@
+# Source: deng-test-three/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-12-12T07:44:21Z"
+  deletionTimestamp: null
+  name: 'deng-test-three-0.0.1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: bf23f46de63cddf739fff57b237386b97479bc76
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: 58e134100bfa20cae23063dab91d18d7b0d6d93f
+    - author:
+        email: 1271580969@qq.com
+        name: denglanlan
+      branch: master
+      committer:
+        email: 1271580969@qq.com
+        name: denglanlan
+      message: |
+        chore: Jenkins X build pack
+      sha: 47acc2faccbc3eb959ba56185cea37d6d5c06162
+  gitHttpUrl: https://github.com/denglanlan/deng-test-three
+  gitOwner: denglanlan
+  gitRepository: deng-test-three
+  name: 'deng-test-three'
+  releaseNotesURL: https://github.com/denglanlan/deng-test-three/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}
