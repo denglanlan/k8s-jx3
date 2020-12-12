@@ -5,7 +5,7 @@ metadata:
   name: php-helloworld-php-helloworld
   labels:
     draft: draft-app
-    chart: "php-helloworld-0.0.1"
+    chart: "php-helloworld-0.0.2"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   namespace: jx-staging
   annotations:
@@ -24,11 +24,11 @@ spec:
       serviceAccountName: php-helloworld-php-helloworld
       containers:
         - name: php-helloworld
-          image: "ghcr.io/denglanlan/php-helloworld:0.0.1"
+          image: "ghcr.io/denglanlan/php-helloworld:0.0.2"
           imagePullPolicy: IfNotPresent
           env:
             - name: VERSION
-              value: 0.0.1
+              value: 0.0.2
           envFrom: null
           ports:
             - containerPort: 8080
