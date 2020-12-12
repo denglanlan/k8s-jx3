@@ -22,7 +22,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: jx3.sky-cloud.net.com
+    domain: jx3.sky-cloud.net
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
