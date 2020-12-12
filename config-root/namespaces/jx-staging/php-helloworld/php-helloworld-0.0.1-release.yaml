@@ -1,0 +1,49 @@
+# Source: php-helloworld/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-12-12T08:02:52Z"
+  deletionTimestamp: null
+  name: 'php-helloworld-0.0.1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: 8f4c3d3f1ed064593d345f8d248708c68434a2e5
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: f507eb240b7a66ed3bc8d6aebf85f20f635a2337
+    - author:
+        email: 1271580969@qq.com
+        name: denglanlan
+      branch: master
+      committer:
+        email: 1271580969@qq.com
+        name: denglanlan
+      message: |
+        chore: Jenkins X build pack
+      sha: b87e1127c5da6772757a7fab34655232c98adb96
+  gitHttpUrl: https://github.com/denglanlan/php-helloworld
+  gitOwner: denglanlan
+  gitRepository: php-helloworld
+  name: 'php-helloworld'
+  releaseNotesURL: https://github.com/denglanlan/php-helloworld/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}
