@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        denglanlan/deng-test-three: true
         denglanlan/k8s-jx3: true
         denglanlan/test-jx3: true
         denglanlan/test-two: true
@@ -21,6 +22,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        denglanlan/deng-test-three: merge
         denglanlan/k8s-jx3: merge
         denglanlan/test-jx3: merge
         denglanlan/test-two: merge
@@ -35,6 +37,7 @@ data:
         - needs-rebase
         repos:
         - denglanlan/k8s-jx3
+        - denglanlan/deng-test-three
         - denglanlan/test-jx3
         - denglanlan/test-two
       - labels:
@@ -47,6 +50,7 @@ data:
         - needs-rebase
         repos:
         - denglanlan/k8s-jx3
+        - denglanlan/deng-test-three
         - denglanlan/test-jx3
         - denglanlan/test-two
       target_url: http://dashboard-jx.jx3.sky-cloud.net

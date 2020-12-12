@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: deng-test-three
     - name: test-jx3
     - name: test-two
     scheduler: in-repo
