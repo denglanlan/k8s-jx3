@@ -1,0 +1,17 @@
+filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
+namespace: jx-staging
+repositories:
+- name: dev
+  url: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+releases:
+- chart: dev/deng-test-three
+  version: 0.0.1
+  name: deng-test-three
+  values:
+  - jx-values.yaml
+templates: {}
+renderedvalues: {}
