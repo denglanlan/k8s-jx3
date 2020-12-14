@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: deng-test-three
     - name: jx-quick
+    - name: node-http
     - name: node-test
     - name: php-helloworld
     - name: test-jx3
