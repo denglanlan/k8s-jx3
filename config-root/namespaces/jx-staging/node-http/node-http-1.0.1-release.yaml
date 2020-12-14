@@ -1,0 +1,49 @@
+# Source: node-http/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-12-14T06:25:00Z"
+  deletionTimestamp: null
+  name: 'node-http-1.0.1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 1.0.1
+      sha: 87766030fefa7eba365a1b16549357c0608a8bcd
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: c4b03959b23e6fa13cc53d45a3252a90c1117b18
+    - author:
+        email: 1271580969@qq.com
+        name: denglanlan
+      branch: master
+      committer:
+        email: 1271580969@qq.com
+        name: denglanlan
+      message: |
+        chore: Jenkins X build pack
+      sha: 0b5026fdff0911483a1e721632195d42da0b907e
+  gitHttpUrl: https://github.com/denglanlan/node-http
+  gitOwner: denglanlan
+  gitRepository: node-http
+  name: 'node-http'
+  releaseNotesURL: https://github.com/denglanlan/node-http/releases/tag/v1.0.1
+  version: v1.0.1
+status: {}

@@ -23,5 +23,10 @@ releases:
   name: node-test
   values:
   - jx-values.yaml
+- chart: dev/node-http
+  version: 1.0.1
+  name: node-http
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}
