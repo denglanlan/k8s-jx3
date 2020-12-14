@@ -13,5 +13,6 @@ spec:
     - name: node-test
     - name: php-helloworld
     - name: test-jx3
+    - name: test-node
     - name: test-two
     scheduler: in-repo

@@ -28,6 +28,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - denglanlan/test-node
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - denglanlan/test-two
       require_self_approval: true
     cat: {}
@@ -141,6 +145,22 @@ data:
       - cat
       - dog
       - pony
+      denglanlan/test-node:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       denglanlan/test-two:
       - approve
       - assign
@@ -183,6 +203,9 @@ data:
       trusted_org: todo
     - repos:
       - denglanlan/test-jx3
+      trusted_org: todo
+    - repos:
+      - denglanlan/test-node
       trusted_org: todo
     - repos:
       - denglanlan/test-two
