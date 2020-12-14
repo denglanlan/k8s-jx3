@@ -28,5 +28,10 @@ releases:
   name: node-http
   values:
   - jx-values.yaml
+- chart: dev/node-hrrp3
+  version: 1.0.1
+  name: node-hrrp3
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}

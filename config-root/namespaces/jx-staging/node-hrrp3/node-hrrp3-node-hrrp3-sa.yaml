@@ -1,0 +1,8 @@
+# Source: node-hrrp3/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: node-hrrp3-node-hrrp3
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
