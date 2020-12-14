@@ -33,5 +33,10 @@ releases:
   name: node-hrrp3
   values:
   - jx-values.yaml
+- chart: dev/python-three
+  version: 0.0.1
+  name: python-three
+  values:
+  - jx-values.yaml
 templates: {}
 renderedvalues: {}

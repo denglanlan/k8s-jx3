@@ -1,0 +1,49 @@
+# Source: python-three/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-12-14T06:47:34Z"
+  deletionTimestamp: null
+  name: 'python-three-0.0.1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 0.0.1
+      sha: 9baa43e45cc7fe396a059b53e1a483c3d66a163a
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: f518cbbef390402c9a4c3a2a6cea5b7f915692c5
+    - author:
+        email: 1271580969@qq.com
+        name: denglanlan
+      branch: master
+      committer:
+        email: 1271580969@qq.com
+        name: denglanlan
+      message: |
+        chore: Jenkins X build pack
+      sha: 7a5a49ecf92156a29be78c1b2c4a89a0753ccaf1
+  gitHttpUrl: https://github.com/denglanlan/python-three
+  gitOwner: denglanlan
+  gitRepository: python-three
+  name: 'python-three'
+  releaseNotesURL: https://github.com/denglanlan/python-three/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}

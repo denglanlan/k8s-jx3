@@ -1,0 +1,8 @@
+# Source: python-three/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: python-three-python-three
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
