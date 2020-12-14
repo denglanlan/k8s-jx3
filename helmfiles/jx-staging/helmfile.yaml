@@ -13,34 +13,25 @@ releases:
   name: deng-test-three
   values:
   - jx-values.yaml
-  forceNamespace: ""
-  skipDeps: null
 - chart: dev/php-helloworld
   version: 0.0.2
   name: php-helloworld
   values:
   - jx-values.yaml
-  forceNamespace: ""
-  skipDeps: null
 - chart: dev/node-test
   version: 1.0.1
   name: node-test
   values:
   - jx-values.yaml
-  forceNamespace: ""
-  skipDeps: null
 - chart: dev/node-http
   version: 1.0.1
   name: node-http
   values:
   - jx-values.yaml
-  forceNamespace: ""
-  skipDeps: null
 - chart: dev/node-hrrp3
   version: 1.0.1
   name: node-hrrp3
-  forceNamespace: ""
-  skipDeps: null
+  values:
+  - jx-values.yaml
 templates: {}
-missingFileHandler: ""
 renderedvalues: {}

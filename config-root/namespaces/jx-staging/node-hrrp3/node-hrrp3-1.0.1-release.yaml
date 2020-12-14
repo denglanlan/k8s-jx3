@@ -1,0 +1,49 @@
+# Source: node-hrrp3/templates/release.yaml
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-12-14T06:32:57Z"
+  deletionTimestamp: null
+  name: 'node-hrrp3-1.0.1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  commits:
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: release 1.0.1
+      sha: bca5c0078d3e9db3780f71a5ddae78baa76e5334
+    - author:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      branch: master
+      committer:
+        email: jenkins-x@googlegroups.com
+        name: jenkins-x-bot
+      message: |
+        chore: add variables
+      sha: f09ae913df2f748da202c1bb969dd0fc1eb8d868
+    - author:
+        email: 1271580969@qq.com
+        name: denglanlan
+      branch: master
+      committer:
+        email: 1271580969@qq.com
+        name: denglanlan
+      message: |
+        chore: Jenkins X build pack
+      sha: 5d92fc036248beda3eec2fca3710187d209f0919
+  gitHttpUrl: https://github.com/denglanlan/node-hrrp3
+  gitOwner: denglanlan
+  gitRepository: node-hrrp3
+  name: 'node-hrrp3'
+  releaseNotesURL: https://github.com/denglanlan/node-hrrp3/releases/tag/v1.0.1
+  version: v1.0.1
+status: {}
