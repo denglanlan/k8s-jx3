@@ -10,6 +10,7 @@ data:
         denglanlan/deng-test-three: true
         denglanlan/jx-quick: true
         denglanlan/k8s-jx3: true
+        denglanlan/node-hrrp3: true
         denglanlan/node-http: true
         denglanlan/node-test: true
         denglanlan/php-helloworld: true
@@ -30,6 +31,7 @@ data:
         denglanlan/deng-test-three: merge
         denglanlan/jx-quick: merge
         denglanlan/k8s-jx3: merge
+        denglanlan/node-hrrp3: merge
         denglanlan/node-http: merge
         denglanlan/node-test: merge
         denglanlan/php-helloworld: merge
@@ -49,6 +51,7 @@ data:
         - denglanlan/k8s-jx3
         - denglanlan/deng-test-three
         - denglanlan/jx-quick
+        - denglanlan/node-hrrp3
         - denglanlan/node-http
         - denglanlan/node-test
         - denglanlan/php-helloworld
@@ -67,6 +70,7 @@ data:
         - denglanlan/k8s-jx3
         - denglanlan/deng-test-three
         - denglanlan/jx-quick
+        - denglanlan/node-hrrp3
         - denglanlan/node-http
         - denglanlan/node-test
         - denglanlan/php-helloworld
