@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: denglanlan
+    provider: github
+    repository: python-three
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: denglanlan-python-three
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/denglanlan/python-three.git
+  org: denglanlan
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: python-three
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/denglanlan/python-three

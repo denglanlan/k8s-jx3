@@ -14,6 +14,7 @@ spec:
     - name: node-http
     - name: node-test
     - name: php-helloworld
+    - name: python-three
     - name: test-jx3
     - name: test-node
     - name: test-two

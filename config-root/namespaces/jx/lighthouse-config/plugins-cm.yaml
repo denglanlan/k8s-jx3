@@ -32,6 +32,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - denglanlan/python-three
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - denglanlan/test-jx3
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -169,6 +173,22 @@ data:
       - cat
       - dog
       - pony
+      denglanlan/python-three:
+      - approve
+      - assign
+      - blunderbuss
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - heart
+      - cat
+      - dog
+      - pony
       denglanlan/test-jx3:
       - approve
       - assign
@@ -246,6 +266,9 @@ data:
       trusted_org: todo
     - repos:
       - denglanlan/php-helloworld
+      trusted_org: todo
+    - repos:
+      - denglanlan/python-three
       trusted_org: todo
     - repos:
       - denglanlan/test-jx3
