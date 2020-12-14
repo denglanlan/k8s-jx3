@@ -13,6 +13,7 @@ data:
         denglanlan/node-test: true
         denglanlan/php-helloworld: true
         denglanlan/test-jx3: true
+        denglanlan/test-node: true
         denglanlan/test-two: true
     plank: {}
     pod_namespace: jx
@@ -31,6 +32,7 @@ data:
         denglanlan/node-test: merge
         denglanlan/php-helloworld: merge
         denglanlan/test-jx3: merge
+        denglanlan/test-node: merge
         denglanlan/test-two: merge
       queries:
       - labels:
@@ -48,6 +50,7 @@ data:
         - denglanlan/node-test
         - denglanlan/php-helloworld
         - denglanlan/test-jx3
+        - denglanlan/test-node
         - denglanlan/test-two
       - labels:
         - updatebot
@@ -64,6 +67,7 @@ data:
         - denglanlan/node-test
         - denglanlan/php-helloworld
         - denglanlan/test-jx3
+        - denglanlan/test-node
         - denglanlan/test-two
       target_url: http://dashboard-jx.jx3.sky-cloud.net
 kind: ConfigMap
